@@ -1,0 +1,126 @@
+#about {
+  padding: 2rem;
+  padding-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f5f2;
+}
+
+#about span {
+  width: 6rem;
+  height: 7px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgb(255, 53, 53);
+  color: rgb(255, 53, 53, 0);
+  margin-bottom: 1rem;
+}
+
+#about h1 {
+  font-size: 3rem;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.about-container figure {
+  padding: 2rem;
+  width: 50%;
+  overflow: hidden;
+}
+
+.about-container figure img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.about-desc {
+  width: 50%;
+}
+
+.about-desc p {
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-desc {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#about-button {
+  width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-desc {
+    padding: 1rem;
+  }
+  .about-desc p {
+    font-size: 1rem;
+  }
+
+  #about {
+    padding-top: 3rem;
+  }
+
+  #about h1 {
+    font-size: 2rem;
+  }
+
+  #about button {
+    width: 10rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #about {
+    padding: 1rem;
+  }
+
+  #about button {
+    width: 8rem;
+    font-size: 0.6rem;
+  }
+
+  #about h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .about-desc {
+    width: 100%;
+    padding: 0;
+    text-align: justify;
+  }
+
+  .about-desc p {
+    font-size: 0.8rem;
+  }
+
+  .about-container {
+    flex-wrap: wrap;
+  }
+
+  .about-container figure {
+    width: 100%;
+    padding: 1rem;
+  }
+}

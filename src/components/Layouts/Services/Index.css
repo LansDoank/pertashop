@@ -1,0 +1,50 @@
+#services {
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#services span {
+  width: 6rem;
+  height: 7px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: rgb(255, 53, 53);
+  color: rgb(255, 53, 53,0);
+  margin-bottom: 1rem;
+}
+
+#services h1 {
+  font-size: 3rem;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+#service-container {
+  flex-direction: row-reverse;
+}
+
+.service-background {
+  background-color: #f6f5f2;
+}
+
+@media screen and (max-width:768px) {
+  #services h1 {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width:576px) {
+  #services {
+    padding-top: 1rem;
+  }
+
+  #services h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
